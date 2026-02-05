@@ -1518,6 +1518,31 @@ body {
     font-weight: bold;
 }
 
+/* ISO 9001 Content Wrapper */
+.iso9001-content-wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+
+.iso9001-image-section {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+.iso9001-text-section {
+    flex: 1;
+}
+
+.iso9001-image-section .certification-card {
+    margin: 0;
+}
+
+.iso9001-image-section .certification-image {
+    height: 550px;
+}
+
 @media (max-width: 768px) {
     .certification-gallery {
         grid-template-columns: 1fr;
@@ -1525,6 +1550,24 @@ body {
 
     .certification-image {
         height: 300px;
+    }
+
+    .iso9001-content-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .iso9001-image-section {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .iso9001-text-section {
+        flex: 1;
+    }
+
+    .iso9001-image-section .certification-image {
+        height: 400px;
     }
 }
 
