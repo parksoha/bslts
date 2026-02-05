@@ -1,0 +1,77 @@
+div.pager{text-align:center; padding:5px 75px; max-width:210px; margin:0 auto; position:relative; text-align:center;}
+div.pager a.btn{
+	display:inline-block; border-radius:5px; border:1px solid #ddd; 
+	background:#f8f8f8;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8)); 
+	background: -o-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+}
+div.pager a.btn.ff{position:absolute; left:10px; top:5px;}
+div.pager a.btn.ll{position:absolute; right:10px; top:5px;}
+div.pager a.btn.prev{position:absolute; left:43px; top:5px;}
+div.pager a.btn.next{position:absolute; right:43px; top:5px;}
+div.pager a.btn:hover,
+div.pager a.btn.on{
+	background:#f8f8f8;
+	background: -moz-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#ffffff)); 
+	background: -o-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+}
+div.pager a.btn.page{background:none; border:none; display:inline;}
+div.pager span.page{height:26px; border-radius:5px; border:2px solid #006db7; text-align:center; width:12%; display:inline-block; line-height:26px; color:#006db7;}
+@media only screen and (min-width: 0px) and (max-width:280px) {
+	div.pager span.page{width:15%;}
+}
+div.pager a.btn.page span.page{border-width:1px; border-color:#ddd; color:#6e6e6e;}
+div.pager a.btn span.prev_btn{display:block; background:url('../images/prev_btn.png') center center no-repeat; text-indent:-1000px; overflow:hidden; height:30px; width:30px;}
+div.pager a.btn span.next_btn{display:block; background:url('../images/next_btn.png') center center no-repeat; text-indent:-1000px; overflow:hidden; height:30px; width:30px;}
+div.pager a.btn span.ff_btn{display:block; background:url('../images/ff_btn.png') center center no-repeat; text-indent:-1000px; overflow:hidden; height:30px; width:30px;}
+div.pager a.btn span.ll_btn{display:block; background:url('../images/ll_btn.png') center center no-repeat; text-indent:-1000px; overflow:hidden; height:30px; width:30px;}
+
+
+
+div.b_message{margin:10px; border-radius:5px; background:#f4f4f4; padding:0.65em 10px;}
+div.b_message p{line-height:1.6em; text-align:center; padding-top:1.5em;}
+div.b_message div.btn_group{padding:5px; text-align:center;}
+div.b_message a{
+	padding:0.45em 6px; 
+	display:inline-block; border-radius:5px; border:1px solid #ddd; 
+	background:#f8f8f8;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8)); 
+	background: -o-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+	background: linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+}
+div.b_message a.on{
+	background:#f8f8f8;
+	background: -moz-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#ffffff)); 
+	background: -o-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+	background: linear-gradient(top, #f8f8f8 0%, #ffffff 100%);
+}
+div.b_message input[type='submit']{
+	padding:0.45em 6px; display:inline-block; border-radius:5px; border:1px solid #64666a; color:#fff; 
+	background:#4374c4;
+	background: -moz-linear-gradient(top, #8fa1dd 0%, #2458a2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fa1dd), color-stop(100%,#2458a2)); 
+	background: -o-linear-gradient(top, #8fa1dd 0%, #2458a2 100%);
+	background: -ms-linear-gradient(top, #8fa1dd 0%, #2458a2 100%);
+	background: linear-gradient(top, #8fa1dd 0%, #2458a2 100%);
+}
+div.b_message input[type='submit'].on{
+	background:#4374c4;
+	background: -moz-linear-gradient(top, #2458a2 0%, #8fa1dd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2458a2), color-stop(100%,#8fa1dd)); 
+	background: -o-linear-gradient(top, #2458a2 0%, #8fa1dd 100%);
+	background: -ms-linear-gradient(top, #2458a2 0%, #8fa1dd 100%);
+	background: linear-gradient(top, #2458a2 0%, #8fa1dd 100%);
+}
+
+div.b_message div.inputWrap{max-width:300px; margin:10px auto;}
+div.b_message div.inputWrap input[type="password"]{border:1px solid #ddd; border-radius:5px; width:100%; height:30px; }

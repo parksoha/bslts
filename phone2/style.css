@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+html { font-family:dotum;  font-size:12px; overflow-y: scroll; }
+body { width:100%; margin:0 0 0 0; background:url(phone_bg.jpg) repeat;}
+img { border:none; margin:0; padding:0; vertical-align:top; }
+input{ vertical-align:top; }
+ul {margin:0; padding:0; list-style:none; }
+li {margin:0; padding:0; list-style:none; vertical-align:top;}
+table { list-style:none; }
+
+/* ũ  */
+a {cursor:pointer; }
+a:link {color:#525252; text-decoration: none;}
+a:hover {color:#525252; text-decoration: underline;}
+a:visited {color:#525252; text-decoration: none;}
+
+.phone{width:100%; height:auto; margin-top:67px; float:left; }
+.temp9{width:296px; height:448px; margin:0 auto; background:url(phone.png) no-repeat; padding:91px 26px 84px 26px;}
+.temp10{width:539px; height:718px; margin:0 auto; background:url(phone2.png) no-repeat; padding:80px 40px 79px 39px;}
+.temp11{width:318px; height:499px; margin:0 auto; background:url(phone3.png) no-repeat; padding:64px 27px 88px 23px;}
+.temp12{width:365px; height:561px; margin:0 auto; background:url(phone4.png) no-repeat; padding:69px 38px 63px 37px;}
+.temp13{width:707px; height:940px; margin:0 auto; background:url(phone5.png) no-repeat; padding:105px 52px 104px 51px;}
+.temp14{width:1108px; height:608px; margin:0 auto; background:url(phone6.png) no-repeat; padding:44px 45px 273px 47px;}
+iframe{background-color:#FFF; }
+.jump{width:100%; height:auto; float:left; text-align:center; margin:20px 0 20px 0;}

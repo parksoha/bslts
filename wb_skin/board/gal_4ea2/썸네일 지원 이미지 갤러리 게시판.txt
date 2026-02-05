@@ -1,0 +1,25 @@
+미리보기는 링크를 참고하세요 
+
+1. 해당 스킨의 setup.php파일의 아래부분은 수정가능합니다. 
+
+//전체테이블 크기 
+$bbs_width = '100%'; 
+
+//썸네일 가로세로 크기 설정 
+$thum_width = '130'; 
+$thum_height = '110'; 
+
+$cols = 4;// 한줄에 보여질 이미지 개수 
+
+2. 섬네일이미지 삭제시 소스 수정이 필요합니다. 
+
+rg4_include/func_comm.php파일 
+function upload_file_delete($upload_path,$exist_files) 
+{ 
+  if(is_array($exist_files)) 
+  foreach($exist_files as $v) 
+    @unlink($upload_path.$v['sname']); 
+    @unlink($upload_path.$v['sname'].'$th$');//섬네일 삭제 
+} 
+처럼 @unlink($upload_path.$v['sname'].'$th$');//섬네일 삭제 
+를 추가해줘 글삭제시 해당파일과 함께 섬네일도 삭제될 수 있도록 합니다. 
