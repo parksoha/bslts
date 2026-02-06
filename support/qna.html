@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Q&A | 부성엘티에스</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../index.html" style="text-decoration: none; display: block;">
+                        <img src="../img/mainlogo.gif" alt="부성엘티에스" style="height: 50px;">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li class="nav-item has-submenu">
+                        <a href="../company/overview.html" class="nav-link">회사소개</a>
+                        <ul class="submenu">
+                            <li><a href="../company/overview.html">회사개요</a></li>
+                            <li><a href="../company/organization.html">조직도</a></li>
+                            <li><a href="../company/location.html">오시는길</a></li>
+                            <li><a href="../customers/partners.html">주요고객사</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-submenu">
+                        <a href="../business/semiconductor.html" class="nav-link">사업내용</a>
+                        <ul class="submenu">
+                            <li><a href="../business/semiconductor.html">반도체 장비</a></li>
+                            <li><a href="../business/display.html">디스플레이 장비</a></li>
+                            <li><a href="../business/utility.html">유틸리티</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-submenu">
+                        <a href="../certification/iso9001.html" class="nav-link">품질인증</a>
+                        <ul class="submenu">
+                            <li><a href="../certification/iso9001.html">ISO 9001</a></li>
+                            <li><a href="../certification/ssq.html">SSQ</a></li>
+                            <li><a href="../certification/stqa.html">STQA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-submenu">
+                        <a href="../other-certification/root-company.html" class="nav-link">기타인증</a>
+                        <ul class="submenu">
+                            <li><a href="../other-certification/root-company.html">뿌리전문기업</a></li>
+                            <li><a href="../other-certification/other.html">기타인증</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-submenu">
+                        <a href="../facilities/manufacturing.html" class="nav-link">생산설비</a>
+                        <ul class="submenu">
+                            <li><a href="../facilities/manufacturing.html">제조·생산 설비</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item has-submenu active">
+                        <a href="qna.html" class="nav-link">고객지원</a>
+                        <ul class="submenu">
+                            <li><a href="notice.html">공지사항</a></li>
+                            <li><a href="qna.html">Q&A</a></li>
+                            <li><a href="recruitment.html">인재채용</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </nav>
+                <div class="language-selector">
+                    <a href="#" class="lang-btn active">Korean</a>
+                    <a href="#" class="lang-btn">English</a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+        <div class="container">
+            <h1>Q&A</h1>
+            <div class="breadcrumb">
+                <a href="../index.html">HOME</a>
+                <span>></span>
+                <a href="notice.html">고객지원</a>
+                <span>></span>
+                <span>Q&A</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sub Navigation -->
+    <section class="sub-nav">
+        <div class="container">
+            <ul class="sub-nav-list">
+                <li class="sub-nav-item"><a href="notice.html">공지사항</a></li>
+                <li class="sub-nav-item active"><a href="qna.html">Q&A</a></li>
+                <li class="sub-nav-item"><a href="recruitment.html">인재채용</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="subpage-content">
+        <div class="container">
+            <div class="content-section">
+                <h2>문의사항</h2>
+                <p style="margin-bottom: 30px; color: var(--text-light);">
+                    제품 및 서비스에 대한 문의사항을 남겨주시면 신속하게 답변드리겠습니다.
+                </p>
+            </div>
+
+            <!-- Search -->
+            <div class="board-search">
+                <select class="search-select">
+                    <option>전체</option>
+                    <option>제목</option>
+                    <option>내용</option>
+                    <option>작성자</option>
+                </select>
+                <input type="text" class="search-input" placeholder="검색어를 입력하세요">
+                <button class="search-btn">검색</button>
+            </div>
+
+            <!-- Board List -->
+            <div class="board-container">
+                <div class="board-header">
+                    <div>번호</div>
+                    <div>제목</div>
+                    <div>작성자</div>
+                    <div>등록일</div>
+                    <div>조회수</div>
+                </div>
+                <ul class="board-list">
+                    <li class="board-item">
+                        <a href="#">
+                            <div class="board-number">-</div>
+                            <div class="board-title">문의사항이 없습니다.</div>
+                            <div class="board-author">-</div>
+                            <div class="board-date">-</div>
+                            <div class="board-views">-</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Pagination -->
+            <div class="board-pagination">
+                <a href="#" class="page-btn">이전</a>
+                <a href="#" class="page-btn active">1</a>
+                <a href="#" class="page-btn">다음</a>
+            </div>
+
+            <div style="text-align: right;">
+                <a href="#" class="write-btn">문의하기</a>
+            </div>
+
+            <div class="content-section" style="margin-top: 60px;">
+                <h2>문의 안내</h2>
+                <div style="background: var(--bg-light); padding: 30px; border-radius: 10px; margin-top: 30px;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 20px; font-size: 20px;">문의 방법</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 10px 0; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 24px;">📞</span>
+                            <div>
+                                <strong style="color: var(--text-dark);">전화 문의</strong>
+                                <p style="color: var(--text-light); margin: 5px 0 0 0;">031-366-3566~8</p>
+                            </div>
+                        </li>
+                        <li style="padding: 10px 0; border-bottom: 1px solid var(--border-color); display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 24px;">📧</span>
+                            <div>
+                                <strong style="color: var(--text-dark);">이메일 문의</strong>
+                                <p style="color: var(--text-light); margin: 5px 0 0 0;">bslts@bslts.com</p>
+                            </div>
+                        </li>
+                        <li style="padding: 10px 0; display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 24px;">💬</span>
+                            <div>
+                                <strong style="color: var(--text-dark);">온라인 문의</strong>
+                                <p style="color: var(--text-light); margin: 5px 0 0 0;">위의 '문의하기' 버튼을 클릭하여 문의사항을 남겨주세요</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <img src="../img/footerlogo.gif" alt="부성엘티에스">
+                    </div>
+                    <div class="footer-contact">
+                        <p>상호 : 부성엘티에스 | 대표이사 : 김정수 | 사업자등록번호 : 124-81-45020</p>
+                        <p>본사 : 경기도 화성시 향남읍 발안공단로 1길, 39 | 대표전화: 031-366-3566~8 | 팩스 : 031-366-2616</p>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2026 부성엘티에스. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
