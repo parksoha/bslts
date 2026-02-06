@@ -162,6 +162,29 @@ if ('IntersectionObserver' in window) {
     });
 }
 
+// Facility Tabs
+const facilityTabs = document.querySelectorAll('.facility-tab');
+const tabPanels = document.querySelectorAll('.tab-panel');
+
+if (facilityTabs.length > 0) {
+    facilityTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const targetTab = tab.getAttribute('data-tab');
+            
+            // Remove active class from all tabs and panels
+            facilityTabs.forEach(t => t.classList.remove('active'));
+            tabPanels.forEach(p => p.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding panel
+            tab.classList.add('active');
+            const targetPanel = document.getElementById(targetTab);
+            if (targetPanel) {
+                targetPanel.classList.add('active');
+            }
+        });
+    });
+}
+
 // Console welcome message
 console.log('%c부성엘티에스', 'color: #1a4d7a; font-size: 24px; font-weight: bold;');
 console.log('%c인간과 자연이 하나되는 그곳에 (주)부성 L.T.S가 있습니다.', 'color: #7f8c8d; font-size: 14px;');
