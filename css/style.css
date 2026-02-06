@@ -7,10 +7,10 @@
 
 :root {
     /* Modern Color Palette */
-    --primary-color: #2563eb;
-    --primary-dark: #1e40af;
-    --primary-light: #3b82f6;
-    --primary-gradient: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    --primary-color: #412F61;
+    --primary-dark: #2D2044;
+    --primary-light: #6A4F9A;
+    --primary-gradient: linear-gradient(135deg, #6A4F9A 0%, #2D2044 100%);
     --secondary-color: #f59e0b;
     --secondary-dark: #d97706;
     --accent-color: #10b981;
